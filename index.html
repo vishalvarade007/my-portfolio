@@ -1,0 +1,283 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" href="portfolio.ico">
+    <link rel="stylesheet" href="./portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <a class="nav-link " href="#">
+            <img class="logo" src="https://i.pinimg.com/originals/93/d3/e3/93d3e31639a4d07613de9dccdc8bd5e8.png"
+                width="50px" height="40px" alt="...">
+        </a>
+        <div id="mydiv" class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="myul">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#myblogs">Blogs</a></li>
+            <li><a href="#contactme">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="title" class="heading-position text-warning">Hi, I am <br>Vishal Varade 👋</h1>
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner" style="height: 100vh;">
+            <div id="carousal-div" class="carousel-item active">
+                <img id="image1"
+                    src="https://raw.githubusercontent.com/AdibaAbid/React-Portfolio/a6f4dafd28526b6cb8a95e81cdeb13132040a246/src/assets/img/carousal/slide1.webp"
+                    class="d-block w-100" alt="img1">
+            </div>
+            <div class="carousel-item">
+                <img id="image2"
+                    src="https://raw.githubusercontent.com/AdibaAbid/React-Portfolio/a6f4dafd28526b6cb8a95e81cdeb13132040a246/src/assets/img/carousal/slide2.webp"
+                    class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img id="image3"
+                    src="https://raw.githubusercontent.com/AdibaAbid/React-Portfolio/a6f4dafd28526b6cb8a95e81cdeb13132040a246/src/assets/img/carousal/slide3.webp"
+                    class="d-block w-100" alt="img3">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div style="background-color: rgb(57, 75, 134);height: 50px;"></div>
+    <div style="background-color: rgb(247, 244, 241);height: 50px;"><h1 class="text-center mt-2">ABOUT ME</h1> </div>
+    <div id="about" style="height: 90vh;background-color: rgb(247, 244, 241);display: flex;align-items:center;justify-content:flex-end;">
+        
+        <br>
+        <br>
+        <div id="myabout-div"
+            style="width:600px;height: 400px;padding: 10px;border: 1px solid white;border-radius: 7px;background-color: white;margin-right: 20px;"
+            class="container">
+            <br><br>
+            Web Developer with expertise of React.js, Redux, Cloud Firestore, HTML and CSS. currently I am learning Express Js .
+            <br><br>
+            I am passionate programmer and a learner, born and brought up in India.Currently, I am enrolled in AlmaBetter for the Web Developement course.
+            <br><br>
+            Along with that, I also create side projects so that I will be better in this field.
+            I love learning about new technologies, what problems are they solving and How can I use them to build
+            better and scalable products.
+            <br><br>
+            <div id="btn-cls" class="text-center">
+                <a href="#contactme"><button class="btn btn-success m-2">Let's Talk</button></a>
+                <a href="https://github.com/vishalvarade007/My-Resume-Builder.git"><button class="btn btn-dark m-2">Github</button></a>
+                <a href="https://www.linkedin.com/in/vishal-varade-477868297"><button class="btn btn-primary m-2">Linkedln</button></a>
+            </div>
+        </div>
+
+    
+    </div>
+    <div id="skills" class="text-center" style="padding: 80px;">
+        <br>
+        <h1 style="color:white">TECH SKILLS</h1>
+        <br>
+        <br>
+        <div id="skill-cards" style="display: flex;align-items: flex-start;justify-content: center;">
+            <div class="text-start m-2 scale-hover"
+                style="width:250px;background-color: white;border:1px solid white;border-radius: 7px;">
+                <br>
+                <h5 class="text-center">Version Control</h5>
+                <hr>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe0rCNImq8oOPWTE5rxNIEaJiES5xcv4e6hX_7aZkQXg&s"
+                    width="120px" height="95px" alt="...">GIT
+            </div>
+
+            <div class="text-start m-2 scale-hover"
+                style="width:250px;background-color: white;border:1px solid white;border-radius: 7px;">
+                <br>
+                <h5 class="text-center">Frameworks</h5>
+                <hr>
+                <img style="margin-left:5px;" src="https://miro.medium.com/v2/resize:fit:1400/0*WCfXH5nmHg-9LgIS.png"
+                    width="100px" height="90px" alt="img">Material UI<br>
+                <img style="margin-left:9px;"
+                    src="https://banner2.cleanpng.com/20180531/sas/kisspng-bootstrap-react-software-framework-javascript-fron-5b0f9b1ab26fd7.9058729715277494027309.jpg"
+                    width="60px" height="50px" alt="img">React bootstrap<br><br>
+                <img style="margin-left:9px;"
+                    src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/bootstrap-5-logo-icon.png"
+                    width="60px" height="50px" alt="img">Bootstrap<br><br>
+                <img style="margin-left:9px;"
+                    src="https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png" width="60px"
+                    height="50px" alt="img">Tailwind CSS<br><br>
+            </div>
+
+            <div class="text-start m-2 scale-hover"
+                style="width:250px;background-color: white;border:1px solid white;border-radius: 7px;">
+                <br>
+                <h5 class="text-center">Hosting Platforms</h5>
+                <hr>
+                <img style="margin-left:5px;"
+                    src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" width="60px"
+                    height="55px" alt="img">Netlify<br><br>
+                <img style="margin-left:9px;"
+                    src="https://p1.hiclipart.com/preview/347/293/202/cat-icon-github-github-pages-user-computer-share-icon-source-code-black-png-clipart.jpg"
+                    width="60px" height="50px" alt="img">GitHub Pages<br><br>
+                <img style="margin-left:9px;"
+                    src="https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png" width="60px"
+                    height="50px" alt="img">Vercel<br><br>
+                <img style="margin-left:9px;"
+                    src="https://w7.pngwing.com/pngs/629/503/png-transparent-heroku-plain-wordmark-logo-icon-thumbnail.png"
+                    width="60px" height="50px" alt="img">Heroku<br><br>
+            </div>
+
+            <div class="text-start m-2 scale-hover"
+                style="width:250px;background-color: white;border:1px solid white;border-radius: 7px;">
+                <br>
+                <h5 class="text-center">Scripting Languages</h5>
+                <hr>
+                <img style="margin-left:5px;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png"
+                    width="60px" height="55px" alt="img">HTML<br><br>
+                <img style="margin-left:9px;"
+                    src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" width="60px"
+                    height="50px" alt="img">CSS<br><br>
+                <img style="margin-left:9px;"
+                    src="https://w7.pngwing.com/pngs/640/199/png-transparent-javascript-logo-html-javascript-logo-angle-text-rectangle-thumbnail.png"
+                    width="60px" height="50px" alt="img">JavaScript<br><br>
+                <img style="margin-left:9px;"
+                    src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" width="60px"
+                    height="50px" alt="img">React Js<br><br>
+                <img style="margin-left:9px;"
+                    src="https://w7.pngwing.com/pngs/413/852/png-transparent-redux-react-logo-javascript-dq-purple-violet-text-thumbnail.png"
+                    width="60px" height="50px" alt="img">Redux<br><br>
+            </div>
+
+            <div class="text-start m-2 scale-hover"
+                style="width:250px;background-color: white;border:1px solid white;border-radius: 7px;">
+                <br>
+                <h5 class="text-center">Databases</h5>
+                <hr>
+                <img style="margin-left:5px;" src="https://kyle.pericak.com/images/google-firestore.png" width="90px"
+                    height="55px" alt="img">Firebase<br><br>
+                <img style="margin-left:9px;" src="https://kyle.pericak.com/images/google-firestore.png" width="90px"
+                    height="50px" alt="img">Firestore<br><br>
+
+            </div>
+
+
+
+        </div>
+        <br>
+        <hr>
+
+        <div id="projects">
+            <br>
+            <h1 style="color: white;">PROJECTS</h1>
+            <br>
+            <div id="myprojects" style="display: flex;align-items:flex-start;justify-content: center;">
+                <div id="quiz" class="card d-inline-block m-3" style="width: 18rem;height: 30rem;">
+                    <img src="https://usercontent.one/wp/collabnix.com/wp-content/uploads/2022/04/ReactJS.jpeg" height="212px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Counter App</h5>
+                      <p class="card-text">The Simple Counter App is a basic web application, offering  increment or decrement...</p>
+                      <a href="https://vishal-counter-app.netlify.app/" class="btn btn-success">see Live</a>
+                      <a href="https://github.com/vishalvarade007/counter-demo-app.git" class="btn btn-success m-3">source code</a>
+                    </div>
+                </div>
+                <div id="calculator" class="card d-block m-3" style="width: 18rem;height: 30rem;">
+                    <img src="https://cdn.dribbble.com/userupload/4250993/file/original-801ee11f16246866cc608190feca7116.jpg?resize=1024x768" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Calculator</h5>
+                      <p class="card-text">A versatile calculator application with a sleek design and with basic mathematical operations.</p>
+                      <a href="https://vishalvarade007.github.io/my-calculator/" class="btn btn-success">see Live</a>
+                      <a href="https://github.com/vishalvarade007/my-calculator.git" class="btn btn-success m-3">source code</a>
+                    </div>
+                  </div>
+                  <div id="music" class="card d-block m-3" style="width: 18rem;height: 30rem;">
+                    <img src="https://cdn3.careeraddict.com/uploads/article/58331/medium-illustration-cv-smartphone.jpg" height="212px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Resume Builder App</h5>
+                      <p class="card-text">Create professional resumes effortlessly with this Resume Builder App!</p>
+                      <a href="https://myresume-builder-vap.netlify.app" target="_blank" class="btn btn-success">see Live</a>
+                      <a href="https://github.com/vishalvarade007/My-Resume-Builder.git" target="_blank" class="btn btn-success m-3">source code</a>
+                    </div>
+                  </div>  
+            </div>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <h1 id="myblogs" style="color: white;">Medium Blogs</h1>
+        <br>
+        <div id="blogs" style="display: flex;align-items: flex-start;justify-content: center;">
+            <a target="_blank" href="https://flaviocopes.com/fix-useeffect-event-callback/">
+                <div id="react-card" class="card d-inline-block m-3" style="width: 16rem;height: 22rem;">
+                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png" height="200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">About React</h5>
+                      <p class="card-text">React is a popular framework which was developed by Facebook.It provides various tools,libraries...</p>
+                    </div>
+                </div>
+            </a>
+            
+              <a target="_blank" href="https://flaviocopes.com/how-to-ensure-an-image-upload-is-smaller-than-a-specific-size/" style="text-decoration: none;">
+                <div id="js-card" class="card d-block m-3" style="width: 16rem;height: 22rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgjR72gFzX6deaakmHg904IZ1P5oXOUpF0lrkpbOkvyg&s" height="200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">About JavaScript</h5>
+                      <p class="card-text">Javascript is an interpreted language.Its syntax is very simple to understand.</p>
+                    </div>
+                  </div>
+              </a>
+              
+           
+            <a href="https://flaviocopes.com/how-to-create-a-sidebar-thats-sticky-but-also-scrolls/" target="_blank" style="text-decoration: none;">
+                <div id="css-card" class="card d-block m-3" style="width: 16rem;height: 22rem;">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230427130955/CSS-Tutorial.webp" height="200px" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS Tutorial</h5>
+                      <p class="card-text">CSS stands for Cascading Style Sheet.It is a styling language which is used to style our Html page.</p>
+                    </div>
+                  </div>
+            </a>
+              
+
+        </div>
+        <hr>
+        <br>
+        <br>
+        <h1 id="contactme" style="color: white;">CONTACT ME</h1>
+        <br>
+        <div id="contact" style="border: 1px solid white;border-radius: 7px;padding: 70px;background-color: white;">
+          <a href="mailto:varadevishal07gmail.com" target="_blank"><button type="button" class="btn btn-outline-danger m-3" style="width: 8rem;">Email Me</button></a>
+          <a href="https://www.linkedin.com/in/vishal-varade-477868297" target="_blank"><button type="button" class="btn btn-outline-primary m-3" style="width: 8rem;">LinkedIn</button></a>
+          <a href="https://github.com/vishalvarade007/My-Resume-Builder.git" target="_blank"><button type="button" class="btn btn-outline-dark m-3" style="width: 8rem;">GitHub</button></a>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h1 style="color: white;">THANK YOU !</h1>
+
+
+    </div>
+</body>
+<script src="./portfolio.js"></script>
+
+</html>

@@ -1,0 +1,283 @@
+.vl{
+    border-right: 2px solid red;
+    height: 1400px;
+    position: absolute;
+    left: 50%;
+    
+}
+
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color:white;
+    border-radius: 50%;
+    border:1px solid black;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+  }
+
+#about-div{
+    position: absolute;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-radius: 6px;
+    
+ }
+
+ .heading-position2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 33, 33);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 0.9;
+    
+}
+
+nav a{
+    margin: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin-top: 5px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(207, 199, 199);
+}
+nav ul li a:hover{
+    color: white;
+}
+nav .menu{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 25px;
+}
+
+nav .menu span{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3px;
+    
+}
+
+
+
+@media (max-width:611px){
+    
+    nav .menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    
+    nav ul.open{
+        display: flex;
+    }
+    nav ul.close{
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a{
+        margin: 5px;
+    }
+    #title{
+        display: flex;
+        flex-direction: column;
+    }
+    #mydiv{
+        cursor: pointer;
+    }
+    
+}
+
+@media (max-width:992px){
+    h1.heading-position{
+         position: absolute;
+         z-index: 1;
+         width: 100%;
+         text-align: center;
+         top:250px;
+    }
+    #image1,#image2,#image3{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media (max-width:575px){
+    #myabout-div {
+        margin-left: 20px;
+    }
+    #myabout-div {
+        overflow: scroll;
+    }
+}
+@media screen and (max-width: 430px) {
+    #contact {
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #react-card,#css-card,#js-card{
+        overflow: hidden;
+    }
+    #quiz,#music,#calculator {
+        overflow: scroll;
+    }
+   
+    #contact .btn {
+      margin: 5px 0;
+    }
+  }
+
+@media (max-width:768px){
+    h1.heading-position{
+         position: absolute;
+         z-index: 1;
+         width: 100%;
+         text-align: center;
+         top:260px;
+    }
+    #image1,#image2,#image3{
+        width: 100%;
+        height: 100%;
+    }
+    
+   
+}
+
+
+@media (max-width:669px){
+    #image1,#image2,#image3{
+        width: 100%;
+        height: 100%;
+    }
+   
+}
+@media (max-width:593px){
+    #image1,#image2,#image3{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+@media (max-width:848px){
+    #skill-cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #skills{
+        height: 300vh;
+        background-color: rgb(57,75,134);
+    } 
+}
+@media (max-width:365px){
+    body {
+        width: 100%;
+    }
+}
+@media (max-width:909px){
+    #myprojects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #blogs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:338px){
+    #skills {
+        height: auto;
+        background-color:rgb(57,75,134);
+    }
+}
+@media (max-width:643px){
+    #skills {
+      height: 930vh;
+      background-color: rgb(57,75,134);
+    }
+}
+@media (max-width:752px) and (min-width:644px) {
+    #skills {
+      height: 910vh;
+      background-color: rgb(57,75,134);
+    }
+}
+@media (max-width:909px) and (min-width:753px) {
+    #skills {
+      height: 850vh;
+      background-color: rgb(57,75,134);
+    }
+}
+@media (min-width:910px) {
+    #skills {
+      height: 430vh;
+      background-color: rgb(57,75,134);
+    }
+}
+.heading-position{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    top:300px;
+}
+
+li{
+    list-style: none;
+    align-items: start;
+}
+
+.scale-hover:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease ;
+}
